@@ -1,5 +1,5 @@
 > **This fork is required because the project seems to be abandoned, but there are some php 8.2 fixes required. See => https://github.com/WhichBrowser/Parser-PHP/pull/673**
-> **We have kept the same namespace, so you just have to replace whichbrowser/parser with nadar/parser in your composer.json**
+> **We have kept the same namespace, so you just have to replace nadar/parser with advicerobo/browserparser in your composer.json**
 
 This is an extremely complicated and almost completely useless browser sniffing library. Useless because you shouldn't use browser sniffing. So stop right now and go read something about feature detecting instead. I'm serious. Go away. You'll thank me later.
 
@@ -43,11 +43,11 @@ How to install it
 
 You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/parser`.
 
-    composer require nadar/parser
+    composer require advicerobo/browserparser
 
 You can easily update WhichBrowser by running a simple command.
 
-    composer update nadar/parser
+    composer require advicerobo/browserparser
 
 You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
 
