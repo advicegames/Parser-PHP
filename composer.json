@@ -1,5 +1,5 @@
 {
-    "name": "nadar/parser",
+    "name": "advicerobo/browserparser",
     "description": "Useragent sniffing library for PHP (PHP 8 compatible fork)",
     "keywords": [
         "useragent",
