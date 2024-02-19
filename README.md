@@ -43,11 +43,11 @@ How to install it
 
 You can install WhichBrowser by using Composer - the standard package manager for PHP. The package is called `whichbrowser/parser`.
 
-    composer require advicerobo/browserparser
+    composer require advicerobo/browserparser:"dev-master"
 
 You can easily update WhichBrowser by running a simple command.
 
-    composer require advicerobo/browserparser
+    composer update advicerobo/browserparser:"dev-master"
 
 You should run this command as often as possible. You might even want to consider setting up a cron job for this purpose.
 
